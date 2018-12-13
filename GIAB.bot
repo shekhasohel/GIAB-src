@@ -1,0 +1,61 @@
+{
+  "name": "GIAB",
+  "padlock": "J4Zqtvzdf8EPayzxdjLRoA==!i/jI5IyUve9Hd8DLysZe1YBCF/N8FpfpUKUDKgDR6WzyuuYKIBh7d9ZN79yFh6Cl",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "3685dd3a-d812-473a-aad8-363a813651d5",
+      "subscriptionId": "5dcd4726-ac62-4619-a563-eb8940c34a8b",
+      "resourceGroup": "BotWebinarDemo",
+      "serviceName": "GIAB",
+      "type": "abs",
+      "name": "GIAB",
+      "id": "1"
+    },
+    {
+      "connectionString": "45gD9QibVYwstSjuXz+LHw==!EAoyswqPBPABP1sq5TzCdOv9Cja0xiD+trG/oBdoifdr+R8izoxSZRZZ2vfBRliL2BR1ahnoP8XEUDZcBgDP0DOkeo+0CTtLMBWgMx6TfY3dXofvp1IjXrR0RMRJS53LPisFoaject51oZpz/5lZ4JH9DRtTgsQPdSROFVdHvjboV6M+kFLws5ct6wFA13Sh8pcQ4tNuEwV5KC4Gf3ES5g==",
+      "tenantId": "3685dd3a-d812-473a-aad8-363a813651d5",
+      "subscriptionId": "5dcd4726-ac62-4619-a563-eb8940c34a8b",
+      "resourceGroup": "BotWebinarDemo",
+      "serviceName": "giab9d46",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "74f09657-800c-4911-818f-392b73738f1e",
+      "appPassword": "n4wL5UXXHgLJorY+/vGuuw==!Wgq9my3yHWMuY8JL1z8xTbr4J0LLS08xrGsvKr6cFYk=",
+      "endpoint": "https://giab.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "BC7nGwedC+Zgk7lsexvcWQ==!ESVrUwAcqEJr6sUkN5WkX9ACGb7otgjZmmtIQiEtjMZNccip8WYbkKLJtGe7T0Yy",
+      "applicationId": "86123742-b2a7-440e-8953-df6ab84e2669",
+      "apiKeys": {},
+      "tenantId": "3685dd3a-d812-473a-aad8-363a813651d5",
+      "subscriptionId": "5dcd4726-ac62-4619-a563-eb8940c34a8b",
+      "resourceGroup": "BotWebinarDemo",
+      "serviceName": "GIAB7c6o6r",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "ad174ab2-9d50-4c57-8007-1bbad8266df2",
+      "authoringKey": "ccQANSDHB9qHQ19mthrG2w==!Rt7Zu5r+kPkfAfBVGLVkvWWItu8MCEpOGY+JKmJIVBKGZ4mxJbDfcGprzR6b0iiD",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
+}
