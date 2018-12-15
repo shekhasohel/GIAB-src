@@ -184,7 +184,17 @@ namespace Microsoft.BotBuilderSamples
                 return true;        // Handled the interrupt.
             }
 
-            
+            if (topIntent.Equals(HelpIntent))
+            {
+                await dc.Context.SendActivityAsync("Let me try to provide some help.");
+                await dc.Context.SendActivityAsync("I understand greetings, being asked for help, or being asked to cancel what I am doing.");
+                if (dc.ActiveDialog != null)
+                {
+                    await dc.RepromptDialogAsync();
+                }
+
+                return true;        // Handled the interrupt.
+            }
 
             return false;           // Did not handle the interrupt.
         }
